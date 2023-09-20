@@ -1,0 +1,140 @@
+body{
+    background-color: aqua ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card
+{
+    height: 480px  ;
+    width: 330px;
+    background-color:white;
+    position: relative;
+    border-radius: 10px;
+    border: 5px solid black;
+}  
+#storys
+{
+ height: 120px;
+ width: 99%;
+ border-bottom:5px rgb(224, 33, 33);
+ padding: 2px; 
+white-space: nowrap;
+ overflow-y: hidden;
+} 
+#storys::-webkit-scrollbar{
+    display: none;
+}
+.story
+ {
+    
+     height: 90px;
+     border-radius: 50%;
+     width: 90px; 
+     border: 3px solid red;
+     overflow: hidden;
+     display: inline-block;
+
+ }
+ .story img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+   
+ } 
+ #post img
+ {
+   height:300px ;
+   width:330px;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+ }
+ #full-screen{
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+ position: absolute;
+ display: none;
+ 
+ }
+ #pro
+ {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ #pro .constainer{
+    display: flex;
+ }
+
+#pro .img
+{
+    height: 50px;
+    border-radius:50%;
+    width: 90px; 
+    
+     overflow: hidden;
+     display: inline-block;
+    
+}
+
+h1{
+    font-size: 20px;
+    padding-left: 8px;
+}
+#pro #icon {
+    width: 35px;
+    height: 50px;
+}
+#icon img{
+    width: 43px;
+}
+
+#post img
+{  
+    padding-top: 7px;
+    height: 230px;
+    width: 100%;
+}
+.inner{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.inner #heart img
+{
+    
+        padding-top: 240px;
+   
+    padding-left: 5px;
+    height: 50px;
+ width: 50px; 
+    
+}
+.inner #comment img{
+    padding-top: 226px;
+    height: 80px;
+    width: 80px;
+    padding-left: 10px;
+
+}
+.inner #share img{
+    padding-top: 242px;
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+
+}
+.inner #save img{
+    padding-top: 236px;
+    height: 60px;
+    width: 60px;
+    padding-left: 60px;
+}
